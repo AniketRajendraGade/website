@@ -227,10 +227,11 @@ function App() {
           <p className="copyright">Copyright © 2025 Aura BI - All Rights Reserved.</p>
           <p className="powered-by">Powered by</p>
           <div className="footer-logo">
-            <img 
+            {/* <img 
               src="/api/placeholder/120/30" 
               alt="GoDaddy" 
-            />
+            /> */}
+            <h3>Markyitcs</h3>
           </div>
         </div>
       </footer>
