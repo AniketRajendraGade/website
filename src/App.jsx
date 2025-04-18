@@ -4,6 +4,7 @@ import './App.css';
 import insightImage from './assets/Insight.webp';
 import team from './assets/Team.webp';
 import featureCardsImage from './assets/table.webp';
+import logo from './assets/new logo.svg';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       {/* Header/Navigation */}
       <header className="header">
         <div className="logo-container">
-          <div className="logo-icon"></div>
+          <div className="logo-icon">
+            <img src={logo} alt="Aura BI Logo"  />
+          </div>
           <span className="logo-text">AURA BI</span>
         </div>
       </header>
